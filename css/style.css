@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: #005192;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  background: #808080;
+  width: 70%;
+}
+
+.side {
+  background: #d3d3d3;
+  width: 30%;
+}
+
+footer {
+  background: #005192;
+}
