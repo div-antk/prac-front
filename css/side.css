@@ -1,28 +1,28 @@
 .side {
   background: #d3d3d3;
   width: 20%;
-  /* display: flex; */
+  margin: 12px;
 }
 
-#menu1 {
+#side_menu1 {
   height: 80px;
   position: relative;
 }
 
-#menu2 {
+#side_menu2 {
   height: 80px;
-  border-top: solid 2px #ffffff;
+  border-top: solid 2px #808080;
   position: relative;
 }
 
-#menu3 {
+#side_menu3 {
   height: 80px;
-  border-top: solid 2px #ffffff;
-  border-bottom: solid 2px #ffffff;
+  border-top: solid 2px #808080;
+  border-bottom: solid 2px #808080;
   position: relative;
 }
 
-#dropmenu1 {
+#dropside_menu1 {
   display: none;
   background: #f5f5f5;
   height: 80px;
@@ -32,7 +32,7 @@
   right: -200px;
 }
 
-#dropmenu2 {
+#dropside_menu2 {
   display: none;
   background: #f5f5f5;
   height: 80px;
@@ -42,7 +42,7 @@
   right: -200px;
 }
 
-#dropmenu3 {
+#dropside_menu3 {
   display: none;
   background: #f5f5f5;
   height: 80px;

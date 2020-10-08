@@ -3,6 +3,7 @@ html{
 }
 body{
   height:100%;
+  background: #808080;
 }
 
 .wrapper {
@@ -22,7 +23,6 @@ header {
 }
 
 .main {
-  background: #808080;
   width: 80%;
 }
 
