@@ -21,3 +21,11 @@ document.getElementById("side_menu3").addEventListener("mouseover", function() {
 document.getElementById("side_menu3").addEventListener("mouseout", function() {
   document.getElementById("dropside_menu3").style.display = "none";
 }, false);
+
+document.querySelector("li.gnavi_menu1").addEventListener("mouseenter", function() {
+  console.log('うどん');
+});
+
+document.querySelector("li.gnavi_menu2").addEventListener("mouseenter", function() {
+  console.log('おでん');
+});
