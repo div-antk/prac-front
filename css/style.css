@@ -12,11 +12,6 @@ body{
   margin: 0 auto;
 }
 
-header {
-  background: #005192;
-  height: 12%;
-}
-
 .container {
   display: flex;
   height: 76%;
