@@ -22,6 +22,14 @@ document.getElementById("side_menu3").addEventListener("mouseout", function() {
   document.getElementById("dropside_menu3").style.display = "none";
 }, false);
 
+document.getElementById("side_menu4").addEventListener("mouseover", function() {
+  document.getElementById("dropside_menu4").style.display = "block";
+}, false);
+
+document.getElementById("side_menu4").addEventListener("mouseout", function() {
+  document.getElementById("dropside_menu4").style.display = "none";
+}, false);
+
 document.querySelector("li.gnavi_menu1").addEventListener("mouseenter", function() {
   console.log('うどん');
 });

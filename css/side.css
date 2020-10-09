@@ -7,25 +7,34 @@
 #side_menu1 {
   height: 80px;
   position: relative;
+  border-bottom: solid 2px #808080;
 }
 
 #side_menu2 {
   height: 80px;
-  border-top: solid 2px #808080;
+  border-bottom: solid 2px #808080;
   position: relative;
 }
 
 #side_menu3 {
   height: 80px;
-  border-top: solid 2px #808080;
   border-bottom: solid 2px #808080;
   position: relative;
+}
+
+#side_menu_vanilla {
+  height: 80px;
+  border-bottom: solid 2px #808080;
+  position: relative;
+}
+
+#side_menu_vanilla:hover {
+  background: #88593b;
 }
 
 #dropside_menu1 {
   display: none;
   background: #f5f5f5;
-  height: 80px;
   width: 200px;
   position: absolute;
   top: 0;
@@ -35,7 +44,6 @@
 #dropside_menu2 {
   display: none;
   background: #f5f5f5;
-  height: 80px;
   width: 200px;
   position: absolute;
   top: 0;
@@ -45,9 +53,32 @@
 #dropside_menu3 {
   display: none;
   background: #f5f5f5;
-  height: 80px;
   width: 200px;
   position: absolute;
   top: 0;
   right: -200px;
+}
+
+#dropside_menu1 > li{
+  height: 32px;
+}
+
+#dropside_menu1 > li:hover {
+  background: #88593b;
+}
+
+#dropside_menu2 > li{
+  height: 32px;
+}
+
+#dropside_menu2 > li:hover {
+  background: #88593b;
+}
+
+#dropside_menu3 > li{
+  height: 32px;
+}
+
+#dropside_menu3 > li:hover {
+  background: #88593b;
 }
