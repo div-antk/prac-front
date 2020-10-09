@@ -7,8 +7,11 @@
   <!-- css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/side.css">
   <link rel="stylesheet" href="css/nav.css">
 </head>
@@ -21,7 +24,7 @@
       <i class="fas fa-headset"></i>
     </header>
 
-    <nav class="gnavi">
+    <!-- <nav class="gnavi">
       <ul>
         <li class="gnavi_menu1"><a href="">a</a></li>
         <li class="gnavi_menu2"><a href="">b</a></li>
@@ -29,7 +32,7 @@
         <li class="gnavi_menu4"><a href="">d</a></li>
         <li class="gnavi_menu5"><a href="">e</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <div class="container">
       <div class="side">
@@ -78,11 +81,22 @@
         </div>
       </div>
 
-      <div class="main">main</div>
+      <div class="main">
+        <div class="swiper-container">
+          <!-- Sliderのラッパー(各スライドを内包する箱みたいなイメージ) -->
+          <div class="swiper-wrapper">
+            <div class="carousel1">SLIDE1</div>
+            <div class="carousel2">SLIDE2</div>
+            <div class="carousel3">SLIDE3</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </div>
 
     <footer>footer</footer>
   </div>
 </body>
 <script type="text/javascript" src="js/js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 </html>
