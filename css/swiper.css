@@ -1,0 +1,20 @@
+.swiper-container {
+  margin-top: 12px;
+  color: #ffffff;
+  background: black;
+  width: 600px;
+  height: 300px;
+}
+
+/* .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+} */
+
+/* :root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+} */

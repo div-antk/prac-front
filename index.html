@@ -7,18 +7,51 @@
   <!-- css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/side.css">
   <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="_n4v1-header">
+      <div class="_n4v1-header-left">
+        <div class="_n4v1-global _n4v1-header-parts">
+          <span class="_n4v1-global-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <div class="_n4v1-global-navi">
+            <!-- 中身は後で書く -->
+          </div>
+        </div>
+        <a href="" class="_n4v1-logo _n4v1-header-parts">
+          <i class="fas fa-cocktail"></i>
+        </a>
+      </div>
+      <div class="_n4v1-header-right">
+        <div class="_n4v1-search _n4v1-header-parts">
+          <form class="_n4v1-search-form" action="">
+            <!-- <input>などを書く -->
+            <div id="select-parent" class="_n4v1-seach-selectbox">
+              ::before
+              <select id="select-box" name="category" aria-label="サービス選択">aaa</select>
+              <span id="select-display">すべて</span>
+              ::after
+            </div>
+            <div class="_n4v1-search-txt">
+              <input type="text" name="searchstr" value placeholder="キーワードから探す（商品・サービス・ゲームなど" id="naviapi-search-text" aria-label="キーワード">
+              <i class="fas fa-search"></i>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+
       <i class="fas fa-cocktail"></i>
       <i class="fas fa-user-circle"></i>
       <i class="fas fa-headset"></i>
@@ -83,20 +116,27 @@
 
       <div class="main">
         <div class="swiper-container">
-          <!-- Sliderのラッパー(各スライドを内包する箱みたいなイメージ) -->
+          <!-- メイン表示部分 -->
           <div class="swiper-wrapper">
-            <div class="carousel1">SLIDE1</div>
-            <div class="carousel2">SLIDE2</div>
-            <div class="carousel3">SLIDE3</div>
+              <!-- 各スライド -->
+              <div class="swiper-slide">a</div>
+              <div class="swiper-slide">b</div>
+              <div class="swiper-slide">c</div>
+              <div class="swiper-slide">d</div>
           </div>
           <div class="swiper-pagination"></div>
+
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
         </div>
       </div>
+      
     </div>
 
     <footer>footer</footer>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script src="js/swiper.js"></script>
 </body>
 <script type="text/javascript" src="js/js.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 </html>
