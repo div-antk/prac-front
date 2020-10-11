@@ -1,49 +1,47 @@
 .side {
-  background: #d3d3d3;
-  width: 20%;
-  margin: 12px;
+  width: 235px;
+  border-right: 1px solid rgb(233, 235, 239);
+  padding: 6px 2px 2px 2px;
 }
 
 #side_menu1 {
-  height: 80px;
+  height: 38px;
+  line-height: 38px;
   position: relative;
-  border-bottom: solid 2px #808080;
 }
 
 #side_menu2 {
-  height: 80px;
-  border-bottom: solid 2px #808080;
+  height: 38px;
+  line-height: 38px;
   position: relative;
 }
 
 #side_menu3 {
-  height: 80px;
-  border-bottom: solid 2px #808080;
+  height: 38px;
+  line-height: 38px;
   position: relative;
 }
 
 #side_menu_vanilla {
-  height: 80px;
-  border-bottom: solid 2px #808080;
+  height: 38px;
+  line-height: 38px;
   position: relative;
 }
 
 #side_menu_vanilla:hover {
-  background: #88593b;
+  background: #f01133;
 }
 
 #dropside_menu1 {
   display: none;
-  background: #f5f5f5;
   width: 200px;
   position: absolute;
   top: 0;
-  right: -200px;
+  right: -202px;
 }
 
 #dropside_menu2 {
   display: none;
-  background: #f5f5f5;
   width: 200px;
   position: absolute;
   top: 0;
@@ -52,7 +50,6 @@
 
 #dropside_menu3 {
   display: none;
-  background: #f5f5f5;
   width: 200px;
   position: absolute;
   top: 0;
@@ -72,7 +69,7 @@
 }
 
 #dropside_menu2 > li:hover {
-  background: #88593b;
+  background: #f01133;
 }
 
 #dropside_menu3 > li{
@@ -80,5 +77,14 @@
 }
 
 #dropside_menu3 > li:hover {
-  background: #88593b;
+  background: #f01133;
+}
+
+.side_menu_general_user {
+  margin: 10px 12px;
+  padding: 3px;
+  font-size: 10px;
+  text-align: center;
+  color: #68b9d9;
+  border: 1px solid #68b9d9;
 }

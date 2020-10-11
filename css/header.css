@@ -1,121 +1,30 @@
-._n4v1-header {
+header {
   background: #ffffff;
   height: 48px;
   width: 100%;
-  min-width: 1024px;
-  box-sizing: content-box;
-  display: block;
-  font-size: 0;
   border-bottom: 1px solid rgb(233, 235, 239);
-}
-
-._n4v1-global-icon {
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 42px;
-  border-right: 1px solid #e1e3e6;
-}
-
-._n4v1-header-parts {
-  display: inline-block;
-  position: relative;
-  height: 42px;
-  margin: 3px;
-}
-
-._n4v1-search {
-  font-size: 0;
-  box-sizing: border-box;
-  width: 28vw;
-  height: auto;
-  min-width: 300px;
-  max-width: 540px;
-  margin: 9px 10px;
-  vertical-align: top;
-  text-align: right;
-}
-
-._n4v1-search-selectbox select {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  height: 28px;
-  left: 0;
-  margin: 0;
-  padding: 0 16px 0 8px;
-  cursor: pointer;
-  opacity: 0;
-  border: 0;
-  border-radius: 15px 0 0 15px;
-  background: transparent;
-}
-
-._n4v1-search-selectbox span {
-  font-size: 10px;
-  line-height: 28px;
-  display: inline-block;
-  overflow: hidden;
-  box-sizing: border-box;
-  max-width: 156px;
-  height: 28px;
-  padding: 0 16px 0 8px;
-  text-align: center;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-._n4v1-search-txt input {
-  font-size: 14px;
-  line-height: 30px;
-  overflow: hidden;
-  box-sizing: border-box;
-  width: 100%;
-  height: 30px;
-  margin: 0;
-  padding: 0 6px;
-  vertical-align: middle;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border: 0;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-  border-radius: 0;
-  background: #fff;
-  -webkit-appearance: none;
-}
-
-/* ._n4v1-search-form {
-  display: table;
-  width: 100%;
-} */
-
-
-
-.fa-bars {
-  color: grey;
 }
 
 .fa-cocktail {
   position: absolute;
   left: 5%;
-  top: 4%;
-  font-size: 28px;
-  color: red;
+  top: 8px;
+  font-size: 32px;
+  color: #f01133;
 }
 
 .fa-user-circle {
   position: absolute;
   left: 90%;
-  top: 4%;
-  font-size: 40px;
-  color: black;
+  top: 8px;
+  font-size: 32px;
+  /* color: white; */
 }
 
 .fa-headset {
   position: absolute;
   left: 80%;
-  top: 4%;
-  font-size: 40px;
-  color: black;
+  top: 8px;
+  font-size: 32px;
+  /* color: white; */
 }

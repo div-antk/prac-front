@@ -3,7 +3,7 @@ html{
 }
 body{
   height:100%;
-  background: #808080;
+  background: #ffffff;
 }
 
 .wrapper {
@@ -17,9 +17,7 @@ body{
   height: 76%;
 }
 
-.main {
-  width: 80%;
-}
+
 
 footer {
   background: #005192;
