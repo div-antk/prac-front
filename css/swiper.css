@@ -1,7 +1,7 @@
 .swiper-container {
   margin-top: 12px;
   color: #ffffff;
-  background: black;
+  background: wheat;
   width: 600px;
   height: 250px;
   padding: 15px 22px 0;
@@ -12,5 +12,4 @@
   text-align: center;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
-  z-index: 10;
 }
