@@ -1,9 +1,11 @@
 .swiper-container {
   margin-top: 12px;
+  margin-right: 100px;
   color: #ffffff;
   background: wheat;
   width: 600px;
   height: 250px;
+  
 }
 
 .swiper-pagination {
