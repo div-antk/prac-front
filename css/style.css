@@ -20,6 +20,7 @@ a {
 .main {
   display: flex;
   justify-content:space-between;
+  height: 100;
 }
 
 .main-container {
@@ -31,6 +32,6 @@ footer {
   background: #333333;
   height: 12%;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
