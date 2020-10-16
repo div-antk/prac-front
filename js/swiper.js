@@ -11,10 +11,16 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
-document.getElementsByClassName("swiper-container").addEventListener("mouseover", function() {
-  console.log("(´・ω・｀)");
-  document.getElementsByClassName("swiper-button-prev").style.display = "block";
-}, false);
+document.querySelector(".swiper-wrapper").addEventListener("mouseover", function() {  
+  document.querySelector(".swiper-button-prev").style.display = "block";
+  document.querySelector(".swiper-button-next").style.display = "block";
+});
+
+document.querySelector(".swiper-wrapper").addEventListener("mouseout", function() {  
+  document.querySelector(".swiper-button-prev").style.display = "none";
+  document.querySelector(".swiper-button-next").style.display = "none";
+});
+
 
 // document.getElementById("swiper-container").addEventListener("mouseout", function() {
 //   document.getElementById("dropside_menu1").style.display = "none";
